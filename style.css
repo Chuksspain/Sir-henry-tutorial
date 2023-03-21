@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+}
+
+.container-fluid-px-0 {
+    display: flex;
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.img-fluid {
+    width: 300px;
+    height: 550px;
+}
+
+img {
+    display: flex;
+    width: 25%;
+    margin: none;
+}
+
+#lead {
+    display: flex;
+    max-width: 500px;
+    color: #fff;
+}
+
+.col-6 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    max-width: 800px;
+    justify-content: space-between;
+}
+
+
+#mainnavbar .navbar-brand {
+    color: #ea1c2c;
+}
+
+#mainnavbar .navbar-brand:hover {
+    color: orange;
+}
+
+
+#mainnavbar a {
+    font-size: 15px;
+}
+
+#mainnavbar .nav-link {
+    color: orange;
+}
+
+#mainnavbar .nav-link:hover {
+    color: #ea1c2c;
+}
+
+section {
+    background-color: #008181;
+    border-radius: 50px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-item {
+    flex: 1;
+}
+
+form {
+    margin-top: 166px;
+    padding: 35px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form .form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group-wrap {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.form-group-wrap .form-group {
+    flex: 1;
+}
+
+.form-group label {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22.9075px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.form-group textarea,
+.form-group input {
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 10px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.0353px;
+    line-height: 23px;
+    padding: 5px;
+}
+
+
+@media (max-width: 900px) {
+    h2 {
+        font-size: 30px;
+        display: flex;
+        width: 400px;
+    }
+
+    .container-fluid-px-0,
+    .row,
+    .col-6,
+    .flex {
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        border-radius: 0;
+    }
+
+
+    img,
+    .img-fluid {
+        width: 600px;
+    }
+
+
+    #navlinks a {
+        font-size: 15px;
+    }
