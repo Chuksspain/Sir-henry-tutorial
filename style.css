@@ -131,6 +131,11 @@ form .form-group {
         width: 400px;
     }
 
+    .email,
+    .phone {
+        width: 200px;
+    }
+
     .container-fluid-px-0,
     .row,
     .col-6,
