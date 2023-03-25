@@ -367,10 +367,11 @@ form .form-group {
     header,
     .flex-2,
     .start,
-    .create-wrap {
+    .create-wrap,
+    section {
         display: flex;
         flex-direction: column;
-        width: 280px;
+        width: 330px;
         border-radius: 0;
     }
 
