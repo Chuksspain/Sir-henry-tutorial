@@ -309,7 +309,7 @@ form .form-group {
 }
 
 
-@media (max-width: 370px) {
+@media (max-width: 330px) {
 
     h2 {
         font-size: 30px;
