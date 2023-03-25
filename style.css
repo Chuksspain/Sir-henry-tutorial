@@ -368,7 +368,9 @@ form .form-group {
     .flex-2,
     .start,
     .create-wrap,
-    section {
+    section,
+    .col,
+    .img-fluid {
         display: flex;
         flex-direction: column;
         width: 330px;
@@ -440,7 +442,7 @@ form .form-group {
     img,
     .img-fluid,
     .smile {
-        width: 300px;
+        width: 330px;
         border-radius: 0;
     }
 
